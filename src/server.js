@@ -8,7 +8,8 @@ const app = express();
 const PORT = 3000;
 
 // Configuración de Swagger
-const swaggerDefinition = require('./swagger.json');
+
+const swaggerDefinition = require('../swagger.json');
 const options = {
   swaggerDefinition,
   apis: ['./api.js', './models/turno.js'],

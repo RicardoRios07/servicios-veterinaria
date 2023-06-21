@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Turno = require('./models/turno');
+const Turno = require('../models/turno');
 
 /**
  * @swagger
@@ -167,3 +167,4 @@ router.delete('/turnos/:id', async (req, res) => {
 });
 
 module.exports = router;
+
